@@ -104,7 +104,8 @@ The data directory of this GitHub repository contains the preprocessed zone-leve
 * `adj.csv`: Adjacency matrix.
 * `duration.csv`: Hourly EV charging duration (Unit: hour).
 * `e_price.csv`: Electricity price (Unit: Yuan/kWh).
-* `inf.csv`: Key information about the 275 zones, including coordinates, charging capacities, area (Unit: m^2), and perimeter (Unit: m).
+* `inf.csv`: Filtered station-level data for the 275 zones, including coordinates, charging capacities, area (Unit: m^2), and perimeter (Unit: m).
+* `inf_raw.csv`: All station-level data for the same 275 zones, including coordinates, charging capacities, area (Unit: m^2), and perimeter (Unit: m).
 * `occupancy.csv`: Hourly EV charging occupancy rate (Unit: %).
 * `s_price.csv`: Service price (Unit: Yuan/kWh).
 * `volume.csv`: Hourly EV charging volume (Unit: kWh). The volume in *volume.csv* is derived from the rated power of charging piles
