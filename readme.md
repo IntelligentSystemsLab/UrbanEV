@@ -65,6 +65,7 @@ Author: Han Li [lihan76@mail2.sysu.edu.cn](lihan76@mail2.sysu.edu.cn), Haohao Qu
 * January 19, 2025: Uploaded code and data for distribution prediction based on UrbanEV.
 * March 17, 2025: Published the dataset on [Data in Dryad](https://doi.org/10.5061/dryad.np5hqc04z).
 * March 28, 2025: The paper "UrbanEV: An Open Benchmark Dataset for Urban Electric Vehicle Charging Demand Prediction" was published in Scientific Data. [Paper in Spring Nature](https://doi.org/10.1038/s41597-025-04874-4)
+* May 11, 2026: Uploaded the preprocessed station-level data to [Google Drive](https://drive.google.com/drive/folders/1VUgdb8uNgmtvO93BHBK_OrSxjndrF-48?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1__-IjG39tz9VIhHVK3XpQw?pwd=1234#list/path=%2F).
 
 ## Data Description
 
@@ -81,6 +82,9 @@ All datasets related to UrbanEV have been made publicly available on  **[Dryad](
 
 * Preprocessed **zone-level data** at both **hourly** and **5-minute** resolution (**1,362** charging stations with **17,532** charging piles)
 * **Raw station-level data** at **5-minute** resolution (before preprocessing) (**1,682** charging stations with **24,798** charging piles)
+* Preprocessed **station-level data** at **5-minute** resolution
+
+The longitude and latitude coordinates of the station-level data are provided in the **GCJ-02** coordinate system. The folder for the newly uploaded preprocessed station-level data includes a separate README file with detailed descriptions of this data.
 
 The data directory of this GitHub repository contains the preprocessed zone-level dataset used in [Paper in Spring Nature](https://doi.org/10.1038/s41597-025-04874-4)
 
